@@ -84,18 +84,24 @@ body {
 .main .dropdown-content a:hover {
     color: #76A9D7;
 }
+.main-text{
+    color: #fff;
+    font-family: 'Roboto Regular', serif;
+    font-size: 26px;
+ }
+ .main-text p{
+    padding-bottom: 73px;
+    margin-bottom: 0;
+ }
  .main-text.heading h1{
     color: #fff;
     font-family: 'Roboto Bold', serif;
     font-size: 60px;
+    padding-top: 235px;
     padding-bottom: 55px;
+    margin: 0;
  }
- .main-text{
-    color: #fff;
-    font-family: 'Roboto Regular', serif;
-    font-size: 26px;
-    padding-bottom: 73px;
- }
+
  .main-text button{
      color: #fff;
      font-size: 26px;
@@ -129,6 +135,7 @@ body {
     background-color: #fff;
  }
  .advantages .advantage p{
+    color: #535353;
     font-family: "Roboto Regular", serif;
     font-size: 22px;
     padding-top: 35px;
@@ -137,9 +144,27 @@ body {
  .advantages .advantage span{
      color: #76A9D7;
  }
- .advantages .advantage img{
-    /* margin: 0 auto; */
- }
  .advantages .video-block{
      padding-top: 120px;
+ }
+ .advantages .video-block h2{
+    font-family: 'Roboto Medium', serif;
+    font-size: 38px;
+    color: #454545;
+    margin-bottom: 0;
+ }
+ .advantages .video-block h2:after{
+     content: '';
+     display: block;
+     height: 3px;
+     width: 238px;
+     right: 0;
+     background-color: #76A9D7;
+     margin-top: 20px;
+     margin-bottom: 40px;
+ }
+ .advantages .video-block p{
+     font-family: 'Roboto Regular', serif;
+     font-size: 22px;
+     color: #535353;
  }
