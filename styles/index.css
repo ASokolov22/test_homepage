@@ -32,6 +32,12 @@ body {
     display: inline-block;
     padding: 0 25px;
 }
+.main .menu-item.languages{
+    padding: 0 7px;
+}
+.main .menu-item.languages .dropdown-content{
+    padding: 20px 14px;
+}
 .main .menu-item .sign-up{
     background: none;
     color: #fff;
@@ -61,7 +67,9 @@ body {
     display: none;
     position: absolute;
     padding: 20px;
-    /* white-space: nowrap; */
+}
+.main .dropdown-contet{
+    padding: 22px 14px;
 }
 .main .menu-item.dropdown:hover {
     color: #76A9D7;
